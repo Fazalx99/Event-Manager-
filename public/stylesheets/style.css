@@ -1,0 +1,99 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container-fluid{
+	padding:0;
+}
+
+.add-event{
+	background-color:#f2efed;
+	text-align: center;
+	padding: 50px 0;
+}
+
+.add-event button{
+	font-size:20pt;
+	padding:10px 100px;
+	position:relative;
+}
+
+.add-event .glyphicon{
+	position:absolute;
+	top:-2px;
+	left:50%;
+
+	color:#286090;
+
+	font-size:0.8em;
+
+	border-radius: 100px;
+	background-color: white;
+	padding:7px;
+
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.event{
+	background-color:#f2efed;
+	margin:20px 0;
+	padding:3px;
+
+	cursor:pointer;
+
+	-moz-box-shadow: 0px 10px 0px 0px #e6e2de;
+	-webkit-box-shadow: 0px 10px 0px 0px #e6e2de;
+	-o-box-shadow: 0px 10px 0px 0px #e6e2de;
+	box-shadow: 0px 10px 0px 0px #e6e2de;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#e6e2de, Direction=180, Strength=0);
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.event .popunder{
+	font-size:18px;
+	padding:20px;
+}
+
+.event img{
+	max-width:100%;
+	max-height:69px;
+}
+
+.event .popunder .edit{
+	float:right;
+}
+
+.search-event{
+	font-size:8pt;
+	text-align:right;
+}
+
+.search-event *{
+	vertical-align: middle;	
+	margin:0 !important;
+}
+
+.title-bar{
+	margin-top:50px;
+}
+
+.title-bar h1{
+	margin-top:0;
+}
+
+.modal-event{
+	margin:20px;
+}
+
+.error{
+	padding:10px;
+	font-size:1.5em;
+	margin-bottom: 10px;
+}

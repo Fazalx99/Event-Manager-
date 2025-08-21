@@ -1,0 +1,16 @@
+doctype html
+html(ng-app='event-management')
+	head
+		title= 'Event Management'
+		link(rel='stylesheet', href='/javascripts/vendor/bootstrap/dist/css/bootstrap.min.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+
+		script(type='text/javascript', src='/javascripts/vendor/jquery/dist/jquery.min.js')
+		script(type='text/javascript', src='/javascripts/vendor/angular/angular.min.js')
+		script(type='text/javascript', src='/javascripts/vendor/angular-resource/angular-resource.min.js')
+		script(type='text/javascript', src='/javascripts/vendor/angular-bootstrap/ui-bootstrap-tpls.min.js')
+
+		script(type='text/javascript', src='/javascripts/event-management/module.js')
+
+	body
+		block content
